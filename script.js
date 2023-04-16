@@ -15,6 +15,7 @@ for(let i in obj){
 	if(obj[i]==1)
 		return i;
 }
+	return null;
 }
 let str = prompt("Enter a string"); 
 alert(nonRepeat(str));
